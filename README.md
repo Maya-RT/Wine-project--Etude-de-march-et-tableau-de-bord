@@ -2,12 +2,22 @@
 
 ##  Objectif du Projet
 
-Le **Domaine des Croix**, producteur de vins français, envisage une expansion vers le **marché américain**. Dans ce contexte, il souhaite déterminer un **prix de vente optimal** pour ses bouteilles, afin d'être **compétitif** tout en valorisant son image de qualité.
+Le **Domaine des Croix**, producteur de vins français, envisage une expansion vers le **marché américain**. Dans ce contexte, il souhaite déterminer un **prix de vente optimal** pour une de ses bouteilles, afin d'être **compétitif** tout en valorisant son image de qualité.
+**Caractéristiques de la bouteille**:
+- **Nom**: Domaine des Croix 2016 Corton Grèves
+- **Cépage**: Pinot Noir
+- **Année** : 2016
+- **Région** : Bourgogne (Burgundy en anglais)
+- **Pays**: France
+- **œnologue** : Roger Voss
+- **Note sur 100 (score)**: 94
+
 
 L'objectif de ce projet est donc double :
 
-- 🔍 **Analyser le marché du vin aux États-Unis** à l’aide d’un jeu de données de plus de 130 000 bouteilles ;
-- 💡 **Recommander une stratégie de prix**, en expliquant clairement la démarche à un public non technique.
+🔍 **Analyser le marché du vin aux États-Unis** à l’aide d’un jeu de données de plus de 130 000 bouteilles ;
+
+💡 **Recommander une stratégie de prix**, en expliquant clairement la démarche à un public non technique.
 
 ---
 
@@ -45,6 +55,12 @@ Un tableau de bord interactif a été développé pour visualiser les données d
 - Filtrage par **pays** et **année** ;
 - Analyse des **prix moyens** par pays ;
 - Comparaison des **tendances régionales**.
+  
+![Page1](https://github.com/Maya-RT/Wine-project--Etude-de-march-et-tableau-de-bord/blob/7813a1a314067e5fd73b34fa0dfa7b7e910f99e8/wine_project1.png)
+
+Exemple de l'Argentine:
+
+![Page1_argentine](https://github.com/Maya-RT/Wine-project--Etude-de-march-et-tableau-de-bord/blob/7813a1a314067e5fd73b34fa0dfa7b7e910f99e8/wine_project1_argentine.png)
 
 ### Page 2 – Focus France
 
@@ -52,14 +68,22 @@ Un tableau de bord interactif a été développé pour visualiser les données d
 - Vue détaillée sur les **prix des bouteilles françaises** similaires ;
 - Carte Power BI avec **calcul DAX** : **moyenne du Top 25 % des bouteilles les plus chères**, utile pour un **positionnement haut de gamme**.
 
+![Page2](https://github.com/Maya-RT/Wine-project--Etude-de-march-et-tableau-de-bord/blob/7813a1a314067e5fd73b34fa0dfa7b7e910f99e8/wine_project2.png)
 ---
 
 ## ✅ Recommandations
 
+Utilisation des filtres sur la deuxième page pour avoir les informations sur les bouteilles présentant les mêmes caractéristiques que notre bouteille:
+
+![Page2_pinot](https://github.com/Maya-RT/Wine-project--Etude-de-march-et-tableau-de-bord/blob/7813a1a314067e5fd73b34fa0dfa7b7e910f99e8/wine_project2_pinot.png)
+
  Vu la **forte offre locale** et la taille du marché intérieur, je recommande au Domaine des Croix de se positionner sur le **segment haut de gamme**, en capitalisant sur :
  
  - La **réputation internationale des vins français** ;
- - La **qualité reconnue de la bouteille** choisie (notes élevées des œnologues).
+ - La **qualité reconnue de la bouteille** choisie de 94 points (notes élevées des œnologues).
+ - Un **écart-type** de 97,3$, cela veux dire que les bouteilles produites en Bourgogne se vendent presque à 100 $ audessus de la moyenne. 
+ - La **moyenne du Top 25 %**: les 25% les plus chers des concurrents de Pinot Noir produit en Bourgogne sont en moyenne à 99,5$ par bouteille, je vous conseille donc de vous aligner sur ce prix.
+ - Si cependant l'entreprise souhaite se possitionner dans un marché plus compétitif, le prix pourrait osciller entre 51$ et 74$ qui correspondent à la moyenne et la médianne des vins français présentant les mêmes caractéristiques.
 
 🔍 Attention néanmoins au **contexte géopolitique et fiscal**, notamment aux **taxes américaines sur les vins européens**.
 
